@@ -1,3 +1,5 @@
+const { FaFilePowerpoint } = require('react-icons/fa');
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
@@ -5,7 +7,13 @@ module.exports = {
   ]
   ,
   theme: {
-    extend: {},
+    extend: {
+      fontFamily:{
+        'inder':['Inder','sans-serif'],
+        'montserrat':['Montserrat','sans-serif'],
+        'courgette':['Courgette','sans-serif']
+      }
+    },
   },
   plugins: [],
 }

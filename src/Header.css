@@ -3,8 +3,19 @@
     margin: 0.30rem;
 }
 .react-icons:hover{
-    cursor: pointer;
-    transform: scale(1.5); 
+    cursor: pointer; 
+}
+#twitter:hover{
+    color: #1DA1F2;
+}
+.github:hover{
+    color: black;
+}
+.github_dark:hover{
+    color: white;
+}
+#linkedin:hover{
+    color: #0A66C2;
 }
 @media (min-width: 768px){
     .react-icons{
