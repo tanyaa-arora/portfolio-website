@@ -6,13 +6,14 @@ function App() {
 
   const [toggle, setToggle] = useState(true)
 
+  document.body.style.backgroundColor=toggle?"#F1FAEE": "#0E0E0E"
 
   function handleClick() {
     setToggle(!toggle)
   }
 
   return (
-    <div className={'main-component flex flex-col justify-center bg-origin-border ' + (toggle ? 'bg-[#F1FAEE]' : 'bg-[#0E0E0E]')}>
+    <div className={'main-component flex flex-col justify-center bg-origin-border '}>
       <Header toggle={toggle} />
       <div className='flex lg:flex-row flex-col items-center justify-center'>
         <Cards
